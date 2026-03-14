@@ -76,9 +76,9 @@ export default function LandingPage() {
           description="With over 15 years of experience serving the community, Heat-N-Air Guys is your trusted partner for all HVAC needs. We pride ourselves on expert installation, responsive maintenance, and emergency repair services that keep your systems running smoothly year-round."
           tag="Industry Leading"
           tagIcon={Award}
-          tagAnimation="entrance-slide"
+          tagAnimation="slide-up"
           buttons={[{ text: "View Our Services", href: "#services" }]}
-          buttonAnimation="entrance-slide"
+          buttonAnimation="slide-up"
           imageSrc="http://img.b2bpic.net/free-photo/african-american-worker-sweeping-away-loose-debris-accumulated-around-air-conditioner-base-trained-engineer-cleaning-hvac-system-body-control-panel-with-dusting-brush-tool-remove-loose-dirt_482257-70162.jpg"
           imageAlt="Professional HVAC technician"
           useInvertedBackground={true}
@@ -102,7 +102,7 @@ export default function LandingPage() {
           description="Comprehensive heating and cooling solutions tailored to your needs. From routine maintenance to emergency repairs, we've got you covered."
           tag="Complete Solutions"
           tagIcon={Sparkles}
-          tagAnimation="entrance-slide"
+          tagAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="blur-reveal"
@@ -157,7 +157,7 @@ export default function LandingPage() {
           description="Our commitment to excellence is reflected in these numbers that represent years of dedicated service."
           tag="Our Impact"
           tagIcon={TrendingUp}
-          tagAnimation="entrance-slide"
+          tagAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={true}
           animationType="depth-3d"
@@ -202,7 +202,7 @@ export default function LandingPage() {
           description="Real feedback from homeowners who trust Heat-N-Air Guys for their HVAC needs."
           tag="Customer Reviews"
           tagIcon={Star}
-          tagAnimation="entrance-slide"
+          tagAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="blur-reveal"
@@ -267,11 +267,11 @@ export default function LandingPage() {
           description="Get answers to common questions about our HVAC services and how we can help you."
           tag="Need Help?"
           tagIcon={HelpCircle}
-          tagAnimation="entrance-slide"
+          tagAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={true}
           animationType="smooth"
-          faqsAnimation="entrance-slide"
+          faqsAnimation="slide-up"
           showCard={true}
           faqs={[
             {
@@ -314,14 +314,14 @@ export default function LandingPage() {
         <ContactCTA
           tag="Ready to Get Started?"
           tagIcon={Phone}
-          tagAnimation="entrance-slide"
+          tagAnimation="slide-up"
           title="Schedule Your HVAC Service Today"
           description="Contact Heat-N-Air Guys to book an installation, maintenance appointment, or emergency repair. Our friendly team is ready to help you stay comfortable."
           buttons={[
             { text: "Call Us: (555) 123-4567", href: "tel:5551234567" },
             { text: "Request Quote Online", href: "#" }
           ]}
-          buttonAnimation="entrance-slide"
+          buttonAnimation="slide-up"
           background={{ variant: "downward-rays-static" }}
           useInvertedBackground={true}
           ariaLabel="Contact and Request Quote Section"
